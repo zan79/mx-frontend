@@ -1,12 +1,12 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="dark">
-      <b-navbar-brand href="/" class="ml-5"><h3>MX Project</h3></b-navbar-brand>
+      <b-navbar-brand href="/"><h3>MX Project</h3></b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="ml-auto mr-5">
+        <b-navbar-nav class="ml-auto">
           <template v-if="$auth.loggedIn">
             <b-nav-item href="/dashboard"><span class=" btn btn-info">Dashboard</span></b-nav-item>
             <b-nav-item href="/products"><span class=" btn btn-warning">Products</span></b-nav-item>

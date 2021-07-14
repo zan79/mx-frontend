@@ -52,6 +52,7 @@ export default {
       .then((res)=>{
         if(res.status==202){
           alert("Product Added Succesfully")
+          this.product = {}
           this.$emit('onAdded')
         }
       })
