@@ -9,8 +9,7 @@
     footer-bg-variant="dark"  footer-border-variant="dark"
     >
       <form action="#">
-
-        <b-form-group label="Name" label-for="name">
+        <b-form-group label="Name" label-for="name" si>
           <b-form-input id="name" v-model="product.name" trim></b-form-input>
         </b-form-group>
 

@@ -78,7 +78,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseUrl: 'https://lentrix.tk/pabriga'
+    baseUrl: 'https://zmxproject.herokuapp.com/'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
